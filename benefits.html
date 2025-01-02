@@ -157,6 +157,90 @@
             font-size: 0.9rem;
             opacity: 0.7;
         }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 10px;
+                margin-top: 10px;
+            }
+
+            .logo {
+                font-size: 1.5em;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            p {
+                font-size: 0.9em;
+            }
+
+
+            ul li {
+                font-size: 0.9em;
+            }
+
+            .text-overlay {
+                font-size: 0.9rem;
+                padding: 5px 10px;
+            }
+
+            .card-gallery {
+                grid-template-columns: 1fr;
+                padding: 10px;
+            }
+
+            .card img {
+                height: 150px;
+            }
+
+            .footer-content {
+                gap: 15px;
+                padding: 10px;
+            }
+
+            .footer-logo-image {
+                height: 40px;
+            }
+
+            .footer-links,
+            .footer-social {
+                gap: 10px;
+            }
+
+            .footer-bottom {
+                font-size: 0.8rem;
+            }
+
+            @media (max-width: 768px) {
+                header {
+                    flex-direction: column;
+                    text-align: center;
+                }
+
+                nav {
+                    flex-direction: column;
+                    gap: 10px;
+                }
+
+                .card-gallery {
+                    grid-template-columns: 1fr;
+                }
+
+                .text-overlay {
+                    font-size: 0.8rem;
+                    padding: 5px 8px;
+                }
+            }
+        }
     </style>
 </head>
 
