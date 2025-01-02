@@ -102,6 +102,28 @@
             margin: 10px 0;
         }
 
+        /* Team Members Section */
+        .team-members {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .team-member {
+            text-align: center;
+            max-width: 150px;
+        }
+
+        .team-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+            border: 3px solid #264653;
+        }
+
         /* Footer Styles */
         /* Footer overall styling */
         .footer {
@@ -151,8 +173,9 @@
             margin-bottom: 10px;
             /* Space below the logo */
         }
-        .a1{
-           
+
+        .a1 {
+
             font-size: 1em;
             margin-bottom: 15px;
             color: #dd6a6a;
@@ -251,16 +274,34 @@
 
         <div class="content-section">
             <h2>Team Members</h2>
-            <ul>
-                <li>[Insert Name of Team Member 1]</li>
-                <li>[Insert Name of Team Member 2]</li>
-                <li>[Insert Name of Team Member 3]</li>
-            </ul>
+            <div class="team-members">
+                <div class="team-member">
+                    <img src="images/tree1.jpg" alt="Team Member 1" class="team-img">
+                    <p>Team Member 1</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/tree1.jpg" alt="Team Member 2" class="team-img">
+                    <p>Team Member 2</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/tree1.jpg" alt="Team Member 3" class="team-img">
+                    <p>Team Member 3</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/tree1.jpg" alt="Team Member 3" class="team-img">
+                    <p>Team Member 4</p>
+                </div>
+            </div>
         </div>
+
 
         <div class="content-section">
             <h2>Project Supervisor</h2>
-            <p>[Insert Name of Supervisor]</p>
+            <div>
+                <img src="images/tree1.jpg" alt="Team Member 3" class="team-img">
+                <p>[Insert Name of Supervisor]</p>
+            </div>
+
         </div>
 
         <div class="content-section">
